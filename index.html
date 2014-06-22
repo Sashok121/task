@@ -1,10 +1,148 @@
 <!doctype html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<title></title>
-</head>
-<body>
+	<head>
+		<meta charset="utf-8">
+		<title>Some site</title>
+	</head>
+	<body>
+		<header>
+			<img src="assets/images/logo.png" alt="logo">
+			<menu class="HeaderMenu">
+				<ul>
+					<li><a href="#">Contacts</a></li>
+					<li><a href="#">Organization</a></li>
+					<li><a href="#">Routes</a></li>
+					<li><a href="#">Visits</a></li>
+				</ul>				
+			</menu>
+			<select>
+				<option>Olya Admin</option>
+			</select>			
+		</header>
 
+		<div class="routes">
+			<button class="rout"></button>
+			<h1>Routes</h1>
+			<button>Add New</button> 
+		</div>	
+		<div class="page">		
+			<div id="sorting">
+				<button></button>
+				<h2>Sorting</h2>
+				<input type="search"> 
+			</div>
+			<form name="SortForm">
+				<h5>Sort by:</h5>
+				<select>
+					<option>Company</option>
+				</select>
+				<input type="checkbox" value="descending" checked >Descending
+			</form>
+			<table>
+				<tr>
+					<th>Date</th>
+					<th>Company</th>
+					<th>User</th>
+					<th>Visits</th>
+					<th>Actions</th>
+				</tr>
+				<tr>
+					<td>05.12.2012</td>
+					<td>QAP INT</td>
+					<td>Vlad Maz</td>
+					<td>125</td>
+					<td>
+						<input type="button" name="rewrite"> 
+						<input type="button" name="delete">
+					</td>
+				</tr>
+				<tr>
+					<td>08.12.2012</td>
+					<td>Microsoft</td>
+					<td>Vlad Maz</td>
+					<td>125</td>
+					<td>
+						<input type="button" name="rewrite"> 
+						<input type="button" name="delete">
+					</td>
+				</tr>
+				<tr>
+					<td>10.12.2012</td>
+					<td>Apple</td>
+					<td>Vlad Maz</td>
+					<td>125</td>
+					<td>
+						<input type="button" name="rewrite"> 
+						<input type="button" name="delete">
+					</td>
+				</tr>
+				<tr>
+					<td>14.12.2012</td>
+					<td>Ukraine Corp</td>
+					<td>Vlad Maz</td>
+					<td>125</td>
+					<td>
+						<input type="button" name="rewrite"> 
+						<input type="button" name="delete"> 
+					</td>
+				</tr>
+				<tr>
+					<td><input type="date" value="14.12.12"></td>
+					<td>QAP INT</td>
+					<td>Vlad Maz</td>
+					<td>125</td>
+					<td>
+						<input type="button" name="rewrite"> 
+						<input type="button" name="delete">
+					</td>
+				</tr>
+			</table>
+			<nav>
+				<section form="SortForm">
+					<nav>
+						<ul>
+							<li>1</li>
+							<li>2</li>
+							<li>3</li>
+							<li>4</li>
+							<li>...</li>
+							<li>17</li>
+							<li>>></li>
+						</ul>					
+					<select>
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+						<option>6</option>
+						<option>7</option>
+						<option>8</option>
+						<option>9</option>
+						<option>10</option>
+						<option>11</option>
+						<option>12</option>
+						<option>13</option>
+						<option>14</option>
+						<option>15</option>
+						<option>16</option>
+						<option>17</option>
+					</select>
+				</section>
+			</nav>
+		</div>
+		<footer>
+			<p>2007-2012. All rights reserved. QAPInt is a trademark of QAPInt</p>
+			<menu class="contacts">
+				<ul>
+					<li><a href="#">Wiki</a></li>
+					<li><a href="#">Privacy statement</a></li>
+					<li><a href="#">Terms of use</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Help</a></li>
+					<li><a href="#">Contact Us</a></li>
+				</ul>				
+			</menu>
+		</footer>
 </body>
 </html>
